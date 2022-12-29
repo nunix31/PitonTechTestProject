@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="16" time="209.836">
+    <testcase classname="Perform enough assertion to ensure below modules pass the specified test cases." name="User should see login form if not authenticated. Login Form should contain username password and login button." time="12.769">
+        <system-out>
+            <![CDATA[Given User goes to pitonTest url address....................................passed
+And User verifies the login form............................................passed
+And User verifies username button...........................................passed
+And User verifies password button...........................................passed
+And User verifies login button..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Perform enough assertion to ensure below modules pass the specified test cases." name="User should see validation errors if click the login button without fill the login form." time="8.973">
+        <system-out>
+            <![CDATA[Given User goes to pitonTest url address....................................passed
+And User clicks the login button............................................passed
+And User sees the username error if click the login button without fill the login form..passed
+And User sees the password error if click the login button without fill the login form..passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Perform enough assertion to ensure below modules pass the specified test cases." name="User should navigate to the dashboard and see welcome message if authenticate successfully." time="8.582">
+        <system-out>
+            <![CDATA[Given User goes to pitonTest url address....................................passed
+And User enters the user name information...................................passed
+And User enters the password information....................................passed
+And User clicks the login button............................................passed
+And User navigates to the dashboard and sees the welcome message............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Perform enough assertion to ensure below modules pass the specified test cases." name="User should view create event form if click the Create Event button on dashboard." time="9.208">
+        <system-out>
+            <![CDATA[Given User goes to pitonTest url address....................................passed
+And User enters the user name information...................................passed
+And User enters the password information....................................passed
+And User clicks the login button............................................passed
+And User clicks the Create Event button.....................................passed
+And User views create event form when clicks the create event button on dashboard..passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Perform enough assertion to ensure below modules pass the specified test cases." name="User should view validation errors if click the Create Event buttonwithout fill the event form." time="9.711">
+        <system-out>
+            <![CDATA[Given User goes to pitonTest url address....................................passed
+And User enters the user name information...................................passed
+And User enters the password information....................................passed
+And User clicks the login button............................................passed
+And User clicks the Create Event button.....................................passed
+And User clicks the Create New Event button.................................passed
+And User views validation error of event name...............................passed
+And User views validation error of valid date...............................passed
+And User views validation error of participant first name...................passed
+And User views validation error of participant last name....................passed
+And User views validation error of email or phone number....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Perform enough assertion to ensure below modules pass the specified test cases." name="User should be able to add new participant when click the Add Participant button." time="11.729">
+        <system-out>
+            <![CDATA[Given User goes to pitonTest url address....................................passed
+And User enters the user name information...................................passed
+And User enters the password information....................................passed
+And User clicks the login button............................................passed
+And User clicks the Create Event button.....................................passed
+And User verifies able to add new participant when click the add participant button..passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Perform enough assertion to ensure below modules pass the specified test cases." name="User should view error message if removes all participants." time="8.671">
+        <system-out>
+            <![CDATA[Given User goes to pitonTest url address....................................passed
+And User enters the user name information...................................passed
+And User enters the password information....................................passed
+And User clicks the login button............................................passed
+And User clicks the Create Event button.....................................passed
+And User clicks the delete button...........................................passed
+And User views error message when removes all participants..................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Perform enough assertion to ensure below modules pass the specified test cases." name="User should be able to create new event if fills all required fields and redirect to dashboard page with create successful message." time="11.795">
+        <system-out>
+            <![CDATA[Given User goes to pitonTest url address....................................passed
+And User enters the user name information...................................passed
+And User enters the password information....................................passed
+And User clicks the login button............................................passed
+And User clicks the Create Event button.....................................passed
+And User enters a event name in event name box..............................passed
+And User enters a event description in event description box................passed
+And User enters a event date in event date box..............................passed
+And User enters a first name in first name box..............................passed
+And User enters a last name in last name box................................passed
+And User enters a phone number in contact box...............................passed
+And User clicks the Create New Event button.................................passed
+And User verifies the successful message....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Perform enough assertion to ensure below modules pass the specified test cases." name="User should be able to edit event. When user click the edit button all event fields must be filled according to editing event." time="19.414">
+        <system-out>
+            <![CDATA[Given User goes to pitonTest url address....................................passed
+And User enters the user name information...................................passed
+And User enters the password information....................................passed
+And User clicks the login button............................................passed
+And User clicks the Create Event button.....................................passed
+And User enters a event name in event name box..............................passed
+And User enters a event description in event description box................passed
+And User enters a event date in event date box..............................passed
+And User enters a first name in first name box..............................passed
+And User enters a last name in last name box................................passed
+And User enters a phone number in contact box...............................passed
+And User clicks the Create New Event button.................................passed
+And User clicks the Edit Event button.......................................passed
+And User waits 2 seconds....................................................passed
+And User edits all event fields.............................................passed
+And User waits 3 seconds....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Perform enough assertion to ensure below modules pass the specified test cases." name="User should be able to update event if required fields filled and redirect to dashboard page with update successful message." time="22.081">
+        <system-out>
+            <![CDATA[Given User goes to pitonTest url address....................................passed
+And User enters the user name information...................................passed
+And User enters the password information....................................passed
+And User clicks the login button............................................passed
+And User clicks the Create Event button.....................................passed
+And User enters a event name in event name box..............................passed
+And User enters a event description in event description box................passed
+And User enters a event date in event date box..............................passed
+And User enters a first name in first name box..............................passed
+And User enters a last name in last name box................................passed
+And User enters a phone number in contact box...............................passed
+And User clicks the Create New Event button.................................passed
+And User clicks the Edit Event button.......................................passed
+And User waits 2 seconds....................................................passed
+And User edits all event fields.............................................passed
+And User waits 3 seconds....................................................passed
+And User verifies the Event updated succesfully alert.......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Perform enough assertion to ensure below modules pass the specified test cases." name="User should view dashboard if authenticated" time="9.38">
+        <system-out>
+            <![CDATA[Given User goes to pitonTest url address....................................passed
+And User enters the user name information...................................passed
+And User enters the password information....................................passed
+And User clicks the login button............................................passed
+And Authenticated user verifies dashboard...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Perform enough assertion to ensure below modules pass the specified test cases." name="User should redirect to login page if not authenticated." time="8.539">
+        <system-out>
+            <![CDATA[Given User goes to pitonTest url address....................................passed
+And Not authenticated user goes to pitonTest for redirects to login page....passed
+And User verifies that they are redirected to the login page................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Perform enough assertion to ensure below modules pass the specified test cases." name="– User should view list of events if any event created otherwise user should view notification message states no registered event found." time="19.583">
+        <system-out>
+            <![CDATA[Given User goes to pitonTest url address....................................passed
+And User enters the user name information...................................passed
+And User enters the password information....................................passed
+And User clicks the login button............................................passed
+And User clicks the Create Event button.....................................passed
+And User enters a event name in event name box..............................passed
+And User enters a event description in event description box................passed
+And User enters a event date in event date box..............................passed
+And User enters a first name in first name box..............................passed
+And User enters a last name in last name box................................passed
+And User enters a phone number in contact box...............................passed
+And User clicks the Create New Event button.................................passed
+And User verifies list of created events....................................passed
+And User waits 3 seconds....................................................passed
+And User deletes the event..................................................passed
+And User waits 3 seconds....................................................passed
+And User verifies no registered event has been found alert..................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Perform enough assertion to ensure below modules pass the specified test cases." name="– User should be able navigate edit event when click the edit event button." time="18.622">
+        <system-out>
+            <![CDATA[Given User goes to pitonTest url address....................................passed
+And User enters the user name information...................................passed
+And User enters the password information....................................passed
+And User clicks the login button............................................passed
+And User clicks the Create Event button.....................................passed
+And User enters a event name in event name box..............................passed
+And User enters a event description in event description box................passed
+And User enters a event date in event date box..............................passed
+And User enters a first name in first name box..............................passed
+And User enters a last name in last name box................................passed
+And User enters a phone number in contact box...............................passed
+And User clicks the Create New Event button.................................passed
+And User clicks the Edit Event button.......................................passed
+And User navigates in edit event page.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Perform enough assertion to ensure below modules pass the specified test cases." name="– User should be able to delete event when click the delete button." time="16.42">
+        <system-out>
+            <![CDATA[Given User goes to pitonTest url address....................................passed
+And User enters the user name information...................................passed
+And User enters the password information....................................passed
+And User clicks the login button............................................passed
+And User clicks the Create Event button.....................................passed
+And User enters a event name in event name box..............................passed
+And User enters a event description in event description box................passed
+And User enters a event date in event date box..............................passed
+And User enters a first name in first name box..............................passed
+And User enters a last name in last name box................................passed
+And User enters a phone number in contact box...............................passed
+And User clicks the Create New Event button.................................passed
+And User waits 3 seconds....................................................passed
+And User clicks the delete event button.....................................passed
+And User waits 3 seconds....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Perform enough assertion to ensure below modules pass the specified test cases." name="User should be able to view event participants." time="13.305">
+        <system-out>
+            <![CDATA[Given User goes to pitonTest url address....................................passed
+And User enters the user name information...................................passed
+And User enters the password information....................................passed
+And User clicks the login button............................................passed
+And User clicks the Create Event button.....................................passed
+And User enters a event name in event name box..............................passed
+And User enters a event description in event description box................passed
+And User enters a event date in event date box..............................passed
+And User enters a first name in first name box..............................passed
+And User enters a last name in last name box................................passed
+And User enters a phone number in contact box...............................passed
+And User clicks the Create New Event button.................................passed
+And User views event participants...........................................passed
+And User waits 3 seconds....................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
